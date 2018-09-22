@@ -1,0 +1,102 @@
+body {
+	background: url(../images/forest.jpg) no-repeat;
+	margin: 0px;
+}
+
+.header_bkgrd {
+	background-color: #63cc2675;
+	padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+hr {
+	border: none;
+	background-color: #e91e1e;
+	height: 3px;
+	margin: 0px;
+}
+
+h1 {
+  font-family: 'Calligraffitti', cursive;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 3.5em;
+  letter-spacing: 3px;
+  margin-top: 50px;
+}
+
+#quoteDisplay {
+  font-size: 30px;
+  line-height: 62px;
+  font-family: 'Monteserrat', sans-serif;
+  text-align: center;
+  color: #fff;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 129px;
+  text-shadow: 2px 2px black;
+}
+
+span {
+  font-size: 14pt;
+  font-style: italic;
+}
+
+#button-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+  background-color: #e91e1e;
+  color: #ffffff;
+  font-size: 14pt;
+  padding: 10px;
+  border: 0px;
+  position: relative;
+  top: 221px;
+}
+
+button:hover {
+  background-color: #e91e1e75;
+}
+
+@media screen and (max-width: 620px) {
+	h1 {
+		font-size: 3em;
+		margin-top: 40px;
+	}
+	
+	#quoteDisplay {
+		font-size: 25px;
+		line-height: 52px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	h1 {
+		font-size: 2.5em;
+		margin-top: 30px;
+	}
+	
+	#quoteDisplay {
+		font-size: 25px;
+		line-height: 52px;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	h1 {
+		font-size: 2em;
+		margin-top: 25px;
+	}
+	
+	#quoteDisplay {
+		font-size: 20px;
+		line-height: 42px;
+		text-shadow: 1px 1px #000;
+	}
+}
+
